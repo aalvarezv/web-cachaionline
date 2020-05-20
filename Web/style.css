@@ -539,9 +539,13 @@ ul.dropdown-content > .dropdown-trigger:hover > ul.dropdown-content > li:hover >
     height: 670px;
 }
 .welcome-text h1 {
-    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 4rem;
     font-weight: 500;
     margin: 0 0 25px;
+    color: #fff;
+    display:flex;
+    justify-content: center;
 }
 .welcome-text p {
     font-size: 16px;
