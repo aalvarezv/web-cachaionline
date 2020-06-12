@@ -4,6 +4,7 @@
 html {
     font-size: 100%;
 }
+
 /*-----#Reset-----*/
 *{ 
     padding: 0; 
@@ -406,7 +407,7 @@ header {
     margin-top: 9px;
 }
 .register-contact-nav > .login > a:last-child:before {
-    content: "/";
+    content: ""; /*Modificado Alan Alavarez content: "/";*/
     padding: 0 5px 0 1px;
     color: #6a6c6d;
 }
